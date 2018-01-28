@@ -1,0 +1,81 @@
+/**
+ * Theme Name: Modular
+ * Theme URI: https://themeforest.net/user/xpeedstudio/portfolio
+ * Description: Modular WordPress Theme is powerful and modern multipurpose responsive WordPress Theme.
+ * Version: 1.0
+ * Author: XpeedStudio
+ * Author URI: http://www.xpeedstudio.com
+ * License: GNU General Public License version 3.0
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.html
+ * Tags: one-column, two-columns, right-sidebar, left-sidebar, custom-menu, featured-images, post-formats, sticky-post, translation-ready
+ * Text Domain: archer
+ * 
+ */
+
+
+
+body{
+    direction:rtl;
+    unicode-bidi:embed;
+}
+
+section {
+    overflow:hidden;
+}
+.fw-row {
+    margin: 0;
+}
+
+@media (max-width:768px){
+    .how-it-works h4, .how-it-works p {
+        margin-right: 0px;
+    }
+}
+.owl-carousel {
+    direction: ltr
+}
+#hero-header-1 .slide h1, #hero-header-1 .slide p, .hero-header-11 p{
+    text-align: right;
+
+}
+.hero-header-1 p {
+    width: 100%
+}
+.hero-header-1 .bttn-small, .hero-header-11 h5, .hero-header-11 p {
+    float: right;
+}
+.hero-header-11 .text-wrapper {
+    float: right;
+}
+.price-2 .features li {
+    text-align: right
+}
+.price-2 .features li span {
+    margin-left: 10px;
+    float: right;
+}
+.text-left {
+    text-align: right;
+}
+.content-block-8 .bubble:after {
+    right: 33px;
+}
+.popup-video .popup-text {
+    margin-right: 10px
+}
+.feature .col-sm-2, .feature .col-xs-3{
+    float: right;
+}
+.page-title-4 .col-md-6 {
+    float: right;
+}
+.page-title-4 .title-nav {
+    float: left;
+}
+#sidebar .widget li:before {
+    right: 0 !important;
+}
+#sidebar .widget li {
+    padding-left: 0 !important;
+    padding-right: 20px !important;
+}

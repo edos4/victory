@@ -1,0 +1,87 @@
+/*
+ Theme Name:     Victory
+ Theme URI:      
+ Description:    A bare-bones child theme for use with twentysixteen Theme from <a href="https://wordpress.org/">Wordpress</a>. To use this Child Theme, you must have <a href="https://wordpress.org/themes/twentysixteen/">twentysixteen</a> parent theme installed.
+ Author:         Nightbirds Solutions
+ Author URI:    
+ Template:       twentysixteen
+ Version:        1.0.0
+*/
+
+/* = My Styles
+------------------------------------------------------------------------------------------------------------ */
+body.admin-bar:not(.custom-background-image)::before {
+    top: 0	px;
+}
+body:not(.custom-background-image)::before, body:not(.custom-background-image)::after {
+    background: inherit;
+    content: "";
+    display: block;
+    height: 0 !important;
+    left: 0 !important;
+    position: unset !important;
+    width: 100%;
+    z-index: unset !important;
+}
+.site{
+	margin:0px;
+}
+.site-inner {
+    margin: 0 auto;
+    max-width: 100% !important;
+    position: relative;
+}
+.site-content{
+   padding:0px;
+}
+.content-area {
+    float: none;
+    margin-right: 0px;
+    width: 100%;
+}
+.site-main {
+    margin-bottom: 0px;
+}
+.entry-title {
+    display:none;
+}
+h1,h2,h3,h4,h5,h6,h7,p,a,li,ul,div{
+	padding:0;	
+	margin:0px;
+}
+.clear {
+	width: 100%;
+	display: block;
+	clear: both;
+}
+body{
+	background-color:#ffffff;
+}
+#home {
+width: 900px
+}
+h1{
+ font-family: 'EB Garamond', serif;
+}
+h2{
+ font-family: 'Raleway', sans-serif;	
+}
+p,ul li a{
+ font-family: 'Open Sans', sans-serif;
+}
+
+@media only screen and (max-width: 500px) {
+ 
+    .content {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+ 
+    .sidebar {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+    
+}

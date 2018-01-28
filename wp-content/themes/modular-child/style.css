@@ -1,0 +1,13 @@
+/*
+Theme Name: Modular
+Description: Child theme for the Modular. Child themes are the recommended way of making modifications to a theme. <a href="http://codex.wordpress.org/Child_Themes">Reade More</a>
+Theme URI: http://themeforest.net/user/XpeedStudio
+Author: XpeedStudio
+Author URI: http://xpeedstudio.com
+Version: 2.1
+* Tags: one-column, right-sidebar, fluid-layout, custom-menu, featured-images, post-formats, sticky-post, translation-ready
+Template: modular
+*/
+@import url("../modular/style.css");
+
+
